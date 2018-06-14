@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="SKYMC.repo" name="SKYMC Eklenti Deposu" version="18.06.15.0" provider-name="SKYMC">
+
+    <extension point="xbmc.addon.repository" name="SKYMC Add-on Repository">
+    
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/skymctv/skymcrepo/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/skymctv/skymcrepo/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/skymctv/skymcrepo/master/</datadir>
+			<hashes>false</hashes>
+        </dir>
+        
+    </extension>
+    
+    <extension point="xbmc.addon.metadata">
+        <summary lang="tr">SKYMC Kurulum ve Guncelleme Deposu</summary>
+        <summary lang="en">SKYMC installation and Updates Store</summary>
+        <description lang="tr">Turkce kaynakli dizi, sinema, belgesel ve dahasi...</description>
+        <description lang="en">Turkish welded film, television, documentary and more...</description>
+        <disclaimer lang="tr">SKYMC telif hakki ile korunan hicbir medyayi yayinlamaz.Link vermez.Tum yayinlar muhtelif web sitelerinden alinmaktadir.</disclaimer>
+        <platform>all</platform>
+    </extension>
+    
+</addon>
