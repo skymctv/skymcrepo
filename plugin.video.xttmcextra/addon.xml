@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.xttmcextra" name="XTTMCEXTRA" version="18.05.25.0" provider-name="XTTMCEXTRA">
+
+    <requires>
+		<import addon="xbmc.python" version="2.1.0" />
+        <import addon="script.module.XTT"/>
+		<import addon="plugin.video.xttmc"/>
+    </requires>
+    
+    <extension point="xbmc.python.pluginsource" provides="video" library="xttmcext.py">
+        <provides>video</provides>
+    </extension>
+  
+    <extension point="xbmc.addon.metadata">
+		<summary lang="tr">XTTMCEXTRA</summary>
+		<summary lang="en">XTTMCEXTRA</summary>
+		<description lang="tr">Turkce kaynakli dizi, sinema, belgesel ve dahasi...</description>
+		<description lang="en">Turkish welded film, television, documentary and more...</description>
+		<disclaimer lang="tr">XTTMCEXTRA telif hakki ile korunan hicbir medyayi yayinlamaz.Link vermez.Tum yayinlar muhtelif web sitelerinden alinmaktadir.</disclaimer>
+		<platform>all</platform>
+    </extension>
+  
+</addon>
