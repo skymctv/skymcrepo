@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.tivibu" name="[COLOR lightblue]TIVI[/COLOR][COLOR red]BU[/COLOR]" version="18.06.18.0" provider-name="[COLOR dimgray]TIVI[/COLOR]BU">
+
+    <requires>
+		<import addon="xbmc.python" version="2.1.0" />
+        <import addon="script.module.beautifulsoup"/>
+    </requires>
+    
+    <extension point="xbmc.python.pluginsource" provides="video" library="TIVIBU.py">
+        <provides>video</provides>
+    </extension>
+  
+    <extension point="xbmc.addon.metadata">
+		<summary>[COLOR lightblue]TIVI[/COLOR]BU</summary>
+		<description>Turkce kaynakli [COLOR lightblue]TV, SINEMA, DIZI, BELGESEL, MUZIK[/COLOR] ve dahasi...</description>
+		<disclaimer>[COLOR lightblue]TIVI[/COLOR]BU telif hakki ile korunan hicbir medyayi yayinlamaz.Link vermez. Tum yayinlar muhtelif web sitelerinden alinmaktadir.</disclaimer>
+		<platform>all</platform>
+    </extension>
+</addon>

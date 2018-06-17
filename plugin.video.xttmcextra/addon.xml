@@ -1,13 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.xttmcextra" name="[COLOR lightblue]XTT[/COLOR][COLOR red]MC[/COLOR]EXTRA" version="18.06.17.0" provider-name="[COLOR dimgray]XTT[/COLOR]MCEXTRA">
+<addon id="plugin.video.xttmcextra" name="[COLOR lightblue]XTT[/COLOR][COLOR red]MC[/COLOR]EXTRA" version="18.06.18.0" provider-name="[COLOR dimgray]XTT[/COLOR]MCEXTRA">
 
     <requires>
 		<import addon="xbmc.python" version="2.1.0" />
-        <import addon="script.module.XTT"/>
-		<import addon="plugin.video.xttmc"/>
+        <import addon="script.module.beautifulsoup"/>
     </requires>
     
-    <extension point="xbmc.python.pluginsource" provides="video" library="xttmcext.py">
+    <extension point="xbmc.python.pluginsource" provides="video" library="XTTMCEXTRA.py">
         <provides>video</provides>
     </extension>
   
