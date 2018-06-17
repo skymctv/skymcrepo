@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.xttmcextra" name="[COLOR lightblue]XTT[/COLOR][COLOR red]MC[/COLOR]EXTRA" version="18.06.16.0" provider-name="[COLOR dimgray]XTT[/COLOR]MCEXTRA">
+<addon id="plugin.video.xttmcextra" name="[COLOR lightblue]XTT[/COLOR][COLOR red]MC[/COLOR]EXTRA" version="18.06.17.0" provider-name="[COLOR dimgray]XTT[/COLOR]MCEXTRA">
 
     <requires>
 		<import addon="xbmc.python" version="2.1.0" />
